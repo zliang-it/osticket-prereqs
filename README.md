@@ -4,7 +4,13 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial walks through the prerequisites and installation process of the open-source help desk ticketing system osTicket.<br /> 
+<br /> 
+At a high level, osTicket (short for Open Source Ticketing System) is a ticket tracker system. A ticket represents any issues, requests, or tasks, either from end users or internal staff. osTicket functions as a way for users to report issues and a tool IT teams can use to manage, track, and resolve tickets. For example, an employee's printer might be jammed. They submit a ticket, which lands in the IT Help Desk queue. An agent then grabs the ticket, goes to fix the printer, and closes the ticket, which automatically notifies the employee that the problem is solved.
+
+osTicket and other ticketing systems aim to solve the problem of managing lots of issues, tasks, and requests. Without ticketing systems, there would be lost tickets, no accountability, wasted efforts, a lack of documentation, and unhappy customers. By acting as a central hub, ticketing systems add structure, communication, accountability, and documentation to the process of solving issues. This is why help desks, customer support, and IT management rely on it for efficient and quality service. 
+
+This kind of system also comes with key features like SLAs (to set deadlines), departments (to sort tickets), and user roles (to give different permissions), which will be discussed after the installation phase.
 
 <h2>Environments and Technologies Used</h2>
 
