@@ -33,14 +33,19 @@ osTicket and other ticketing systems aim to solve the problem of managing lots o
 
 
 <p>
-Step 1: set up a new virutal machine on Azure and connect to it with windows App (formerly Remote Desktop). Then download and open the installation files.
+Step 1: set up a new virutal machine on Azure. Next, in Windows App (formerly Remote Desktop), add it as a new PC and connect to it. Then grab the installation files and open it on the virtual machine.
 
-what pictures should i include for this step? -> how do i take pictures on a VM again? 
+<img width="1470" height="835" alt="bascis_p1" src="https://github.com/user-attachments/assets/5bec22de-b3a3-4e7a-86d3-1b3ed7b42e60" />
+<img width="1470" height="831" alt="basics_p2" src="https://github.com/user-attachments/assets/0c5d23b8-4b12-4346-9317-b2f7b677d95a" />
+<img width="1470" height="831" alt="disks" src="https://github.com/user-attachments/assets/f901d6b8-d9d9-4cee-93df-571b3fb7ae09" />
+<img width="1470" height="833" alt="networking" src="https://github.com/user-attachments/assets/f76d1da0-96ea-4da7-9e7a-14e8ecbb79e3" />
 
-resource group, vm name, region, size 2 vcpus, image. admmin account
 
-basic + disks + networking 
 
+<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 11 AM" src="https://github.com/user-attachments/assets/4a393cfc-5458-4180-b262-48b196b67579" />
+
+<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 57 AM" src="https://github.com/user-attachments/assets/3f5c615b-bb01-4344-adf0-f712096b42d6" />
+<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 24 58 AM" src="https://github.com/user-attachments/assets/73f2382d-46aa-4ea6-982c-61f3922daf08" />
 
 </p>
 <br />
@@ -51,7 +56,7 @@ basic + disks + networking
 <p>
 Step 2: set up web server environnment 
 
-<img width="1059" height="909" alt="Screenshot 2025-11-22 at 11 13 47 AM" src="https://github.com/user-attachments/assets/f3530322-f881-4e8e-9a76-b7c53f2a3a81" />
+
 </p>
 <br />
 
