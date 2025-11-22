@@ -50,6 +50,8 @@ basic + disks + networking
 </p>
 <p>
 Step 2: set up web server environnment 
+
+<img width="1059" height="909" alt="Screenshot 2025-11-22 at 11 13 47 AM" src="https://github.com/user-attachments/assets/f3530322-f881-4e8e-9a76-b7c53f2a3a81" />
 </p>
 <br />
 
