@@ -45,14 +45,14 @@ Step 1: set up a new virutal machine on Azure. Next, in Windows App (formerly Re
 <img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 11 AM" src="https://github.com/user-attachments/assets/4a393cfc-5458-4180-b262-48b196b67579" />
 
 <img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 57 AM" src="https://github.com/user-attachments/assets/3f5c615b-bb01-4344-adf0-f712096b42d6" />
-<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 24 58 AM" src="https://github.com/user-attachments/assets/73f2382d-46aa-4ea6-982c-61f3922daf08" />
+<p>
+<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 24 58 AM" src="https://github.com/user-attachments/assets/73f2382d-46aa-4ea6-982c-61f3922daf08" />  
+</p>
 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Step 2: set up web server environnment 
 
