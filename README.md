@@ -45,9 +45,7 @@ Step 1: set up a new virutal machine on Azure. Next, in Windows App (formerly Re
 <img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 11 AM" src="https://github.com/user-attachments/assets/4a393cfc-5458-4180-b262-48b196b67579" />
 
 <img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 57 AM" src="https://github.com/user-attachments/assets/3f5c615b-bb01-4344-adf0-f712096b42d6" />
-<p>
-<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 24 58 AM" src="https://github.com/user-attachments/assets/73f2382d-46aa-4ea6-982c-61f3922daf08" />  
-</p>
+
 
 </p>
 <br />
@@ -55,10 +53,49 @@ Step 1: set up a new virutal machine on Azure. Next, in Windows App (formerly Re
 
 <p>
 Step 2: set up web server environnment 
+  
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 30 42 PM" src="https://github.com/user-attachments/assets/e73d7729-7a18-40c0-809c-cf5e74df3bf2" />
 
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 32 30 PM" src="https://github.com/user-attachments/assets/d998db20-433c-4b1e-ad00-f4353932213f" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 36 22 PM" src="https://github.com/user-attachments/assets/08115c3f-a11e-434f-8c17-a0286f1efdf0" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 40 11 PM" src="https://github.com/user-attachments/assets/2e46ba8f-e80b-4da8-adde-63a110970778" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 43 27 PM" src="https://github.com/user-attachments/assets/a58b0546-8be2-4c4c-b567-2bbf92217e91" />
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 44 11 PM" src="https://github.com/user-attachments/assets/1dff255c-0e34-489f-99a6-67db10b3ff59" />
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 01 PM" src="https://github.com/user-attachments/assets/f48ba339-6bba-4011-854b-c4d6d68cbade" />
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 19 PM" src="https://github.com/user-attachments/assets/b5d1e43b-8746-4272-af71-b1028fdcea52" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 47 28 PM" src="https://github.com/user-attachments/assets/6e1a5e10-cc4c-4e12-a4b8-53c8063ea220" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 52 46 PM" src="https://github.com/user-attachments/assets/385731fe-fa33-4d56-a105-490e60f0763b" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 53 24 PM" src="https://github.com/user-attachments/assets/78ac2aa2-b367-4ade-a7a6-0426c732888c" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 54 51 PM" src="https://github.com/user-attachments/assets/3f7a22ed-6e72-41e2-934b-6abeee94820c" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 20 39 PM" src="https://github.com/user-attachments/assets/b1be606f-6a10-4750-87e8-2e6e78000e88" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 33 42 PM" src="https://github.com/user-attachments/assets/021f3603-c8e0-48d9-a9e1-d593884dfdf1" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 35 51 PM" src="https://github.com/user-attachments/assets/59307067-761e-4445-93e0-9ecba2e63794" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 36 02 PM" src="https://github.com/user-attachments/assets/fcddb29b-e7d6-4701-88e4-4f8abcf23b1f" />
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/3a485f14-8971-4712-aba9-1362ed02203b" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 44 30 PM" src="https://github.com/user-attachments/assets/8e629541-8a6c-4431-802a-5333f79bc126" />
+
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 49 11 PM" src="https://github.com/user-attachments/assets/6838def3-7179-4628-8992-e54699d91600" />
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/a3364740-aa0d-47ba-b4bf-842987f0997d" />
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/3f5b03de-1fef-46a4-91a8-944393f79857" />
 
 </p>
 <br />
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
