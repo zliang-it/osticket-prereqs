@@ -32,22 +32,32 @@ osTicket and other ticketing systems aim to solve the problem of managing lots o
 <h2>Installation Steps</h2>
 
 
-<p>
-Step 1: set up a new virutal machine on Azure. Next, in Windows App (formerly Remote Desktop), add it as a new PC and connect to it. Then grab the installation files and open it on the virtual machine.
 
+<h3>Step 1: Create Windows Virtual Machine.</h3> 
+
+<p>
+The first step of installing osTicket is creating the comptuer where our ticketing system will live. We will create a windows virtual machine on Azure functioning as our workstation or working computer. So let's head over to Azure.
+</p>
+
+<p>
 <img width="1470" height="835" alt="bascis_p1" src="https://github.com/user-attachments/assets/5bec22de-b3a3-4e7a-86d3-1b3ed7b42e60" />
 <img width="1470" height="831" alt="basics_p2" src="https://github.com/user-attachments/assets/0c5d23b8-4b12-4346-9317-b2f7b677d95a" />
-<img width="1470" height="831" alt="disks" src="https://github.com/user-attachments/assets/f901d6b8-d9d9-4cee-93df-571b3fb7ae09" />
-<img width="1470" height="833" alt="networking" src="https://github.com/user-attachments/assets/f76d1da0-96ea-4da7-9e7a-14e8ecbb79e3" />
-<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 11 AM" src="https://github.com/user-attachments/assets/4a393cfc-5458-4180-b262-48b196b67579" />
-<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 30 42 PM" src="https://github.com/user-attachments/assets/e73d7729-7a18-40c0-809c-cf5e74df3bf2" />
-
-
+When creating our virtual machine, the main focus is the Basics tab. Key things we need to do is name the virutal machine and pick which resource group to store it ('Resource group', 'Virtual machine name'), select the region our resource goes (Region), selecting the modern windoms operating system (Image), and give it some computing power (Size). After, we cab simply skim through the other tabs and leave the defualt values as is.
 </p>
-<br />
 
 <p>
-Step 2: set up web server environnment 
+<img width="1470" height="956" alt="Screenshot 2025-11-22 at 11 22 11 AM" src="https://github.com/user-attachments/assets/4a393cfc-5458-4180-b262-48b196b67579" />
+Next, in Windows App (formerly Remote Desktop), add our windows virtual machine as a new PC and connect to it. 
+</p>
+
+<p>
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 30 42 PM" src="https://github.com/user-attachments/assets/e73d7729-7a18-40c0-809c-cf5e74df3bf2" />
+Then grab the installation files and open it on the virtual machine.
+</p>
+
+</hr>
+
+<h3>Step 2: set up web server environnment</h3>
   
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 32 30 PM" src="https://github.com/user-attachments/assets/d998db20-433c-4b1e-ad00-f4353932213f" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 36 22 PM" src="https://github.com/user-attachments/assets/08115c3f-a11e-434f-8c17-a0286f1efdf0" />
@@ -57,7 +67,7 @@ Step 2: set up web server environnment
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 01 PM" src="https://github.com/user-attachments/assets/f48ba339-6bba-4011-854b-c4d6d68cbade" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 19 PM" src="https://github.com/user-attachments/assets/b5d1e43b-8746-4272-af71-b1028fdcea52" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 47 28 PM" src="https://github.com/user-attachments/assets/6e1a5e10-cc4c-4e12-a4b8-53c8063ea220" />
-</p>
+
 
 <p>
 Step 3: application install  
