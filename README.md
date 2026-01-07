@@ -58,14 +58,23 @@ Then grab the installation files and open it on the virtual machine.
 </hr>
 
 <h3>Step 2: set up web server environnment</h3>
-  
+
+Now it's time to set up our web server environment. a web server environment is a place to 'host' and 'run' osTicket application. Host - url related making the url work. run meaning executing osTicket program as a dynamic web app. 
+
+
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 32 30 PM" src="https://github.com/user-attachments/assets/d998db20-433c-4b1e-ad00-f4353932213f" />
+
+Install PHP Manager (for IIS) and PHP 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 36 22 PM" src="https://github.com/user-attachments/assets/08115c3f-a11e-434f-8c17-a0286f1efdf0" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 40 11 PM" src="https://github.com/user-attachments/assets/2e46ba8f-e80b-4da8-adde-63a110970778" />
+
+Install SQL
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 43 27 PM" src="https://github.com/user-attachments/assets/a58b0546-8be2-4c4c-b567-2bbf92217e91" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 44 11 PM" src="https://github.com/user-attachments/assets/1dff255c-0e34-489f-99a6-67db10b3ff59" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 01 PM" src="https://github.com/user-attachments/assets/f48ba339-6bba-4011-854b-c4d6d68cbade" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 19 PM" src="https://github.com/user-attachments/assets/b5d1e43b-8746-4272-af71-b1028fdcea52" />
+
+Register PHP in IIS
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 47 28 PM" src="https://github.com/user-attachments/assets/6e1a5e10-cc4c-4e12-a4b8-53c8063ea220" />
 
 
