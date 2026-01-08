@@ -58,6 +58,17 @@ Then grab the installation files and open it on the virtual machine.
 </hr>
 
 <h3>Step 2: set up web server environnment</h3>
+Qs to answer 
+1. what is an web server environment and what does it do? 
+2. broadly, what are the three main parts, their function? how do they come together as a whole, say for example a user visits our osTicket?
+3. why do we need each part? what would the web server environment be unable to do? 
+
+1. web server environment functions to 'host' and 'serve' programs as processes. a web server environmnet creates the space on the itnernet where our application lives ('host') and sends our applications to users on the internet ('serve'). There is an important distinction to highlight between the two terms programs and processes. 'programs' a monlithic of code, a big folder of lots of code files. Static and uninteractive and nnot live. programs are applications like osTicket. 'process' are active programs. live, running, dynamic, interaction - all characteristics we associate with using apps. the difference is like a tool and actually using the tool, and web server environments enable us to use tech tools. 
+
+2. server itself (IIS) 'host' 'serve'
+   database (MySQL) remembering ability -> dynamic apps 
+   Scripting language (PHP) engine executes the code
+   how does the server work with the database and scripting language
 
 Now it's time to set up our web server environment. a web server environment is a place to 'host' and 'run' osTicket application. Host - url related making the url work. run meaning executing osTicket program as a dynamic web app. 
 
