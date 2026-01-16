@@ -57,20 +57,12 @@ Then grab the installation files and open it on the virtual machine.
 
 </hr>
 
-<h3>Step 2: set up web server environnment</h3>
-Qs to answer 
-1. what is an web server environment and what does it do? 
-2. broadly, what are the three main parts, their function? how do they come together as a whole, say for example a user visits our osTicket?
-3. why do we need each part? what would the web server environment be unable to do? 
+<h3>Step 2: Set Up Web Server Environment</h3>
 
-1. web server environment functions to 'host' and 'serve' programs as processes. a web server environmnet creates the space on the itnernet where our application lives ('host') and sends our applications to users on the internet ('serve'). There is an important distinction to highlight between the two terms programs and processes. 'programs' a monlithic of code, a big folder of lots of code files. Static and uninteractive and nnot live. programs are applications like osTicket. 'process' are active programs. live, running, dynamic, interaction - all characteristics we associate with using apps. the difference is like a tool and actually using the tool, and web server environments enable us to use tech tools. 
+Now it's time to install our web server environment. What is a web server environment? It's the underlying system behind any website or application on the internet. It stores websites and applicaitons on the internet and delievers them to users. Why do we need to build a web server environment before installing the application? That is because a web server environment is the infrastucutre of our application. What does it actually do? Web server environments are responsbile for handling request - response cycles. Our server is constantly listening to users asking to view our application. These requests are made by a web browser whenever a user types the URL of our application. Our server (along with other parts discussed later) will send a response answering the user's request, in this case the answer will be our osTicket Help Desk page (for customers) or the internal application (for workers).
 
-2. server itself (IIS) 'host' 'serve'
-   database (MySQL) remembering ability -> dynamic apps 
-   Scripting language (PHP) engine executes the code
-   how does the server work with the database and scripting language
+The main three parts of a web server environment are the server itself (we'll be using window's IIS), the database, and the scripting languge
 
-Now it's time to set up our web server environment. a web server environment is a place to 'host' and 'run' osTicket application. Host - url related making the url work. run meaning executing osTicket program as a dynamic web app. 
 
 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 32 30 PM" src="https://github.com/user-attachments/assets/d998db20-433c-4b1e-ad00-f4353932213f" />
