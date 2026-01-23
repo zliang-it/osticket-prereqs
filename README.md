@@ -59,16 +59,20 @@ Then grab the installation files and open it on the virtual machine.
 
 <h3>Step 2: Set Up Web Server Environment</h3>
 
-Now it's time to install our web server environment. What is a web server environment? It's the underlying system behind any website or application on the internet. It stores websites and applicaitons on the internet and delievers them to users. Why do we need to build a web server environment before installing the application? That is because a web server environment is the infrastucutre of our application. What does it actually do? Web server environments are responsbile for handling request - response cycles. Our server is constantly listening to users asking to view our application. These requests are made by a web browser whenever a user types the URL of our application. Our server (along with other parts discussed later) will send a response answering the user's request, in this case the answer will be our osTicket Help Desk page (for customers) or the internal application (for workers).
+In this step, our goal is to install a web server environment. A web server environment is holistic bundle of hardware and software that allows a web application like osTicket to exist and be accessible over the internet or network. Hardware refers to the physical or, in our case, virtual computer that stores our web application and is always internet connected-enabling our web application to always live on the internet and searchable by users. Software refers to the collection of software that works together to send resources like webpages from our web applicaiton osTicket to users. Notably, the core software we install in this step will be a server, database, and scripting language. 
 
-The main three parts of a web server environment are the server itself (we'll be using window's IIS), the database, and the scripting languge
+Most importantly, the hardware and software in a web server environment together forms the basic structure behind every website or application you see on the internet, allowing them to work properly. Without a web server environment, a web applciaiton cannot function properly. We must install the software, known as the web stack, before installing the actual application itself in order for a fully functioning web applicaiton. 
 
-
-
+First, we will install a server. A server is software or a computer that delievers resources (in this case webpages) to other computers and see when users make requests and respond to them. In our project, we will be installing and using Internet Information Services (IIS) as our server. To do so, we will go to the Control Panel in Windows, specifically the programs tab as show on the left side in the image below. Then after clicking 'Turn Windows Features on or off', we will be able to select 'Internet Information Services' as well as 'CGI' for install. 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 32 30 PM" src="https://github.com/user-attachments/assets/d998db20-433c-4b1e-ad00-f4353932213f" />
 
-Install PHP Manager (for IIS) and PHP 
+After installing IIS, we can check for proper install by opening the IIS manager from the Start menu and see the server manager, like the left side in the image below.
+
+Next, we will install our scripting language PHP and connect it to our server IIS. A scripting langause is the programming lanaguage that will read and execute our application's code files. When connected with IIS, our server will be able to past off user requests for resources from osTicket to PHP to work and complete. To start, we will install PHP Manager by clicking on the 'PHPMangerForIIS_V1.5.0' from osTicket-Installation-Files folder. After installing, we should see 'PHP Manager' appear as shown in the right side of the image below.
+
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 36 22 PM" src="https://github.com/user-attachments/assets/08115c3f-a11e-434f-8c17-a0286f1efdf0" />
+
+
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 40 11 PM" src="https://github.com/user-attachments/assets/2e46ba8f-e80b-4da8-adde-63a110970778" />
 
 Install SQL
