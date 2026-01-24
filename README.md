@@ -68,16 +68,21 @@ First, we will install a server. A server is software or a computer that delieve
 
 After installing IIS, we can check for proper install by opening the IIS manager from the Start menu and see the server manager, like the left side in the image below.
 
-Next, we will install our scripting language PHP and connect it to our server IIS. A scripting langause is the programming lanaguage that will read and execute our application's code files. When connected with IIS, our server will be able to past off user requests for resources from osTicket to PHP to work and complete. To start, we will install PHP Manager by clicking on the 'PHPMangerForIIS_V1.5.0' from osTicket-Installation-Files folder. After installing, we should see 'PHP Manager' appear as shown in the right side of the image below.
+Next, we will install our scripting language PHP and connect it to our server IIS. A scripting langause is the programming lanaguage that will read and execute our application's code files. In our case, we will use PHP becuase osTicket's application code is written in PHP. When connected with IIS, our server will be able to past off user requests for resources from osTicket to PHP to work and complete. To start, we will install PHP Manager by clicking on the 'PHPMangerForIIS_V1.5.0' from osTicket-Installation-Files folder. After installing, we should see 'PHP Manager' appear as shown in the right side of the image below.
 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 36 22 PM" src="https://github.com/user-attachments/assets/08115c3f-a11e-434f-8c17-a0286f1efdf0" />
 
+Let's install the actual scripting langugage itself PHP. First, we'll navigate to the C: drive in the File Explorer and create the 'PHP' folder. Then we'll unzip 'php-7.3.8-nts-Win32-VC15-x86.zip' into this folder. 
 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 40 11 PM" src="https://github.com/user-attachments/assets/2e46ba8f-e80b-4da8-adde-63a110970778" />
 
-Install SQL
+Lastly, we will install a database. A database is a way to store and manage data. They are important because a database is how websites and applications can remember things, enabling a dynamic application that creates real time content in response to user interaction and new information. In other words, databases are how applicaitons are personalized and interactive. 
+
+Specifically, we will first install a Database Management System (DBMS) before creating any databases. A DBMS is database software to do logical data operations such as retrieving data, updating data, adding new data efficiently. In our case, we will use MySQL. From the installation files, install 'mysql-5.5.62-win32.msi'.
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 43 27 PM" src="https://github.com/user-attachments/assets/a58b0546-8be2-4c4c-b567-2bbf92217e91" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 44 11 PM" src="https://github.com/user-attachments/assets/1dff255c-0e34-489f-99a6-67db10b3ff59" />
+
+Setting up server logins
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 01 PM" src="https://github.com/user-attachments/assets/f48ba339-6bba-4011-854b-c4d6d68cbade" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 19 PM" src="https://github.com/user-attachments/assets/b5d1e43b-8746-4272-af71-b1028fdcea52" />
 
