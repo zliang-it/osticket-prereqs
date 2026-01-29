@@ -66,29 +66,27 @@ Most importantly, the hardware and software in a web server environment together
 First, we will install a server. A server is software or a computer that delievers resources (in this case webpages) to other computers and see when users make requests and respond to them. In our project, we will be installing and using Internet Information Services (IIS) as our server. To do so, we will go to the Control Panel in Windows, specifically the programs tab as show on the left side in the image below. Then after clicking 'Turn Windows Features on or off', we will be able to select 'Internet Information Services' as well as 'CGI' for install. 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 32 30 PM" src="https://github.com/user-attachments/assets/d998db20-433c-4b1e-ad00-f4353932213f" />
 
-After installing IIS, we can check for proper install by opening the IIS manager from the Start menu and see the server manager, like the left side in the image below.
+After installing IIS, we can check for proper installation by opening the IIS manager from the Start menu and seeing the server manager, like the left side in the image below.
 
-Next, we will install our scripting language PHP and connect it to our server IIS. A scripting langause is the programming lanaguage that will read and execute our application's code files. In our case, we will use PHP becuase osTicket's application code is written in PHP. When connected with IIS, our server will be able to past off user requests for resources from osTicket to PHP to work and complete. To start, we will install PHP Manager by clicking on the 'PHPMangerForIIS_V1.5.0' from osTicket-Installation-Files folder. After installing, we should see 'PHP Manager' appear as shown in the right side of the image below.
+Next, we will install our scripting language, PHP, and connect it to our server, IIS. A scripting language is the programming language that will execute our application's code files. This builds the resource which can be thought of the answer our server, IIS, responds to requests with.  In other words, the scripting language is where IIS hands off requests for completion. When connected with IIS, our server will be able to pass off user requests for resources from osTicket to PHP to work and complete. To start, we will install PHP Manager by clicking on the 'PHPManagerForIIS_V1.5.0' from the osTicket-Installation-Files folder. After installing, we should see 'PHP Manager' appear as shown on the right side of the image below. PHP Manager acts like the control panel behind PHP, integrating PHP with IIS into a greater whole. By installing PHP Manager, we will be able to manage and configure PHP through IIS!
 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 36 22 PM" src="https://github.com/user-attachments/assets/08115c3f-a11e-434f-8c17-a0286f1efdf0" />
 
-Let's install the actual scripting langugage itself PHP. First, we'll navigate to the C: drive in the File Explorer and create the 'PHP' folder. Then we'll unzip 'php-7.3.8-nts-Win32-VC15-x86.zip' into this folder. 
+Let's install the actual scripting language itself, PHP. In other words, we are now installing the actual engine that runs and processes PHP code (aka the programming language that osTicket is written in). This engine functions as the runtime environment from which all osTicket application code will run within. First, we'll navigate to the C: drive in the File Explorer and create the 'PHP' folder. Then we'll unzip 'php-7.3.8-nts-Win32-VC15-x86.zip' into this folder, and proceed to register this folder as the new PHP version within PHP Manager.
 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 40 11 PM" src="https://github.com/user-attachments/assets/2e46ba8f-e80b-4da8-adde-63a110970778" />
 
-Lastly, we will install a database. A database is a way to store and manage data. They are important because a database is how websites and applications can remember things, enabling a dynamic application that creates real time content in response to user interaction and new information. In other words, databases are how applicaitons are personalized and interactive. 
+<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 47 28 PM" src="https://github.com/user-attachments/assets/6e1a5e10-cc4c-4e12-a4b8-53c8063ea220" />
 
-Specifically, we will first install a Database Management System (DBMS) before creating any databases. A DBMS is database software to do logical data operations such as retrieving data, updating data, adding new data efficiently. In our case, we will use MySQL. From the installation files, install 'mysql-5.5.62-win32.msi'.
+Lastly, we will install a database. A database is a way to store and manage electronic data. Databases are important becuase it is how websites and applications can remember things, enabling a dynamic application that creates real time content in response to user interaction and new information. In other words, osTicket needs a database to be personalized and interactive per the client who requests resources and pages from our application, whether they be a user submitting tickets or an IT employee working on tickets.
+
+Likewise to installing our scripting language, we will first install a Database Management System (DBMS) before creating any databases. A DBMS is software to manage and organize lots of databases and ensure efficient logical data operations within databases, such as retrieving data, updating data, or adding new data. In our case, we will use MySQL. From the installation files, install 'mysql-5.5.62-win32.msi'.
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 43 27 PM" src="https://github.com/user-attachments/assets/a58b0546-8be2-4c4c-b567-2bbf92217e91" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 44 11 PM" src="https://github.com/user-attachments/assets/1dff255c-0e34-489f-99a6-67db10b3ff59" />
 
-Setting up server logins
+After completing the initial install, we will apply configurations and create an admin account for our MySQL instance. In detail, we will apply a ‘Typical Setup’, ‘Standard Configuration’, and create an admin account with user and password as ‘root’. This will be important later on as we register this MySQL instance within osTicket. 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 01 PM" src="https://github.com/user-attachments/assets/f48ba339-6bba-4011-854b-c4d6d68cbade" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 19 PM" src="https://github.com/user-attachments/assets/b5d1e43b-8746-4272-af71-b1028fdcea52" />
-
-Register PHP in IIS
-<img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 47 28 PM" src="https://github.com/user-attachments/assets/6e1a5e10-cc4c-4e12-a4b8-53c8063ea220" />
-
 
 <p>
 Step 3: application install  
