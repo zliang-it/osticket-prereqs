@@ -89,15 +89,18 @@ After completing the initial install, we will apply configurations and create an
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 45 19 PM" src="https://github.com/user-attachments/assets/b5d1e43b-8746-4272-af71-b1028fdcea52" />
 
 <p>
-Step 3: application install  
-
+Step 3: Application Install  
+  
+Now we’ll install osTicket application. Go back to ‘osTicket-Installation-Files’ folder and unzip ‘osTicket-v1.15.8’. In the new ‘osTicket-v1.15.8’ folder, there will be two folders scripts and upload. The upload folder represents the osTicket application. Deployment of osTicket, i.e. making our application into a live network service and discoverable by browsers, will be done by moving the upload folder into  ‘wwwroot’ folder nested in ‘inetpub’ folder. After moving uplaod into wwwroot directory, we will rename it to ‘osTicket’ for clarity. Completion of these steps is shown below. 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 52 46 PM" src="https://github.com/user-attachments/assets/385731fe-fa33-4d56-a105-490e60f0763b" />
+  
+After making osTicket live, we should see it as a site in IIS Manager and view it in our browser. Open back up IIS Manager as admin and open the arrow list to reveal osTicket under Default web site. Select it and click on ‘Browse *:80 (http)’ to view our osTicket instance in our browser!
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 53 24 PM" src="https://github.com/user-attachments/assets/78ac2aa2-b367-4ade-a7a6-0426c732888c" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 12 54 51 PM" src="https://github.com/user-attachments/assets/3f7a22ed-6e72-41e2-934b-6abeee94820c" />
 </p>
 
 <p>
-Step 4: setup wizard + database connection 
+Step 4: Setup Wizard + Database Connection 
 
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 20 39 PM" src="https://github.com/user-attachments/assets/b1be606f-6a10-4750-87e8-2e6e78000e88" />
 <img width="1470" height="956" alt="Screenshot 2025-12-04 at 3 33 42 PM" src="https://github.com/user-attachments/assets/021f3603-c8e0-48d9-a9e1-d593884dfdf1" />
